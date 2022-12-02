@@ -22,7 +22,7 @@ public class TestCass {
 		System.setProperty("webdriver.edge.driver", "C:\\edge driver\\msedgedriver.exe");
 		WebDriver driver = new EdgeDriver();
 
-		driver.get("http://127.0.0.1:5501/index.html");
+		driver.get("http://127.0.0.1:5500/Qa-automation-7thmar/index.html");
 		driver.manage().window().maximize();
 
 //		Date currentDate = new Date();
